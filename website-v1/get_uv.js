@@ -19,7 +19,7 @@ function get_data(){
     // placeholder function for specific location
     var lat = -37.93,
     lon = 145.12;
-    var url_call = 'https://api.openweathermap.org/data/2.5/onecall?lat=' + lat + '&lon=' + lon + '&exclude=minutely,hourly,daily,alerts&appid=29f32a874ef287325631c36c8d516251';
+    var url_call = 'https://api.openweathermap.org/data/2.5/onecall?lat=' + lat + '&lon=' + lon + '&exclude=minutely,daily,alerts&appid=29f32a874ef287325631c36c8d516251';
     console.log(url_call)
     response = httpGet(url_call)
 
